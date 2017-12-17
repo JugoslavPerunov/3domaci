@@ -2,14 +2,22 @@
     <head>
         <title>Filip - moj prvi sajt</title>
         <link rel="stylesheet" href="./style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+
     </head>
     <body>
-      <div class="wrapper">
-        <h1>Moj prvi sajt</h1>
+      <header  id="vrh">
+        <h1 class="cursive">Moj prvi sajt</h1>
+        <nav>
+          <p><strong>Git tutorijal:</strong> <a href="#gitTut">klikni</a><strong> za video</strong></p>
+        </nav>
         <p>Dobrodosli - dovidjenja</p>
         <h2>Bolje vas nasli!</h2>
-        <img src="https://imgur.com/VuudupJ.png" alt="M">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SWYqp7iY_Tc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>Komitujmo zajedno!</iframe>
+      </header>
+      <div class="wrapper">
+        <img  class="margina" width="40%" height="40%" src="https://imgur.com/VuudupJ.jpg" alt="M">
+        <iframe  id="gitTut" class ="videoClip" width="560" height="315" src="https://www.youtube.com/embed/SWYqp7iY_Tc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>Komitujmo zajedno!</iframe>
+        <a href="#vrh"><p class="clipName">Odavle sam učijo! <br><strong>klikni</strong> za povratak na vrh strane...  </p></a>
       </div>
     </body>
 </html>
