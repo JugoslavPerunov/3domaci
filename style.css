@@ -1,3 +1,7 @@
+
+* {
+    text-align: center;
+}
 body {
     background-color: aqua;
     color: #000;
@@ -5,17 +9,25 @@ body {
 .wrapper {
     text-align: center;
     width: 90%;
-    margin: 0 auto;
+    margin: 100px auto 0;
     background-image: url('https://imgur.com/cjQuqx4.jpg') ;
 }
+
 
 .videoClip {
     display: block;
     position: relative;
     margin: 100px auto;
-   
+    /*transition: transform 2s;*/
 }
 
+/*.videoClip:hover {
+    transition: transform 2s;
+    transform: rotateX(360deg);
+}*/
+
+
+   
 header {
     text-align: center;
     margin-top: 30px;
@@ -27,12 +39,128 @@ header {
     text-transform: uppercase;
     color: yellow;
     margin-top: -95px;
+    transition: transform 3s;
+    font-weight: bolder;
 }
 
-.margina {
+.clipName:hover {
+    transition: transform 3s;
+    transform: translate(50px, 0);
+    color: #fff;
+}
+
+.marginaVic {
     margin-top: 249px;
+    transition: all 8s;
+}
+
+.marginaVic:hover {
+    transition: all 4s;
+    transform: scale(2,2);
+    opacity: 0.8;
+}
+
+.cursive, .dno {
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 .cursive {
-    font-family: 'Cedarville Cursive', cursive;
+    margin: 50px auto;
 }
+
+
+/*flexbox*/
+
+.flex {
+    display: flex;
+    
+}
+
+.video, .vic, .kontakt, .sponzor {
+    font-size: 2em;
+    color: DarkRed;
+    font-weight: bolder;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+.video {
+    background-color: red;
+}
+
+.vic {
+    background-color: green;
+}
+
+.kontakt {
+    background-color: blue;
+}
+
+.sponzor {
+    background-color: #fff;
+}
+
+
+
+/*forma/kontakt*/
+
+.dno {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkred;
+    margin: 300px auto 550px;
+}
+
+
+
+/*Ucenje&Druzenje Unltd*/
+
+.ucenje {
+    display: inline;
+    position: relative;
+    left: 6%;
+}
+
+.druzenje {
+    display: inline;
+    position: relative;
+    right: 4%;
+    
+}
+
+.velikoIdebelo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #fff;
+}
+
+.ucenjeIdruzenje {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.priblizi {
+    transition: transform 5s;
+    transition-delay: 1s;
+}
+
+.zarotiraj {
+    transition: transform 5s;
+    transition-delay: 1s;
+}
+
+.priblizi:hover {
+    transition: transform 5s;
+    transform: scale(3,3);
+}
+
+.zarotiraj:hover {
+    transition: transform 4s;
+    transform: rotate(740deg)
+}
+
+
+
+
