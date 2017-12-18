@@ -148,7 +148,7 @@ header {
 
 .zarotiraj {
     transition: transform 5s;
-    transition-delay: 1s;
+    /*transition-delay: 1s;*/
 }
 
 .priblizi:hover {
