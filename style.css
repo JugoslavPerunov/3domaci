@@ -13,7 +13,17 @@ body:hover {
     background-color: orchid;
 }
 
+.dobrodosli {
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+   /* ||shorthand transition: transform 2s ease-in-out;*/
+}
 
+.dobrodosli:hover {
+    transition: transform 4s ease-in-out;
+    transform: rotateZ(360deg);
+}
 
 .wrapper {
     text-align: center;
