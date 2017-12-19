@@ -5,11 +5,11 @@
 body {
     background-color: aqua;
     color: #000;
-    transition: background 10s ease-in-out;
+    transition: background 3s ease-in-out;
 }
  
 body:hover {
-    transition: background 15s ease-in-out;
+    transition: background 10s ease-in-out;
     background-color: orchid;
 }
 
@@ -52,12 +52,12 @@ a {
     text-transform: uppercase;
     color: yellow;
     margin-top: -95px;
-    transition: transform 3s;
+    transition: all 3s ease-out;
     font-weight: bolder;
 }
 
 .clipName:hover {
-    transition: all 3s;
+    transition: all 3s ease-out;
     transform: translate(50px, 0);
     color: #fff;
 }
