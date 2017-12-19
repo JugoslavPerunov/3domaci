@@ -5,7 +5,16 @@
 body {
     background-color: aqua;
     color: #000;
+    transition: background 10s ease-in-out;
 }
+ 
+body:hover {
+    transition: background 15s ease-in-out;
+    background-color: orchid;
+}
+
+
+
 .wrapper {
     text-align: center;
     width: 90%;
@@ -33,6 +42,10 @@ header {
     margin-top: 30px;
 }
 
+a {
+    text-decoration-line: none;
+}
+
 .clipName {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman,serif ;
     font-size: 2em;
@@ -44,7 +57,7 @@ header {
 }
 
 .clipName:hover {
-    transition: transform 3s;
+    transition: all 3s;
     transform: translate(50px, 0);
     color: #fff;
 }
