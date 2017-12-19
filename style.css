@@ -9,7 +9,7 @@ body {
 }
  
 body:hover {
-    transition: background 10s ease-in-out;
+    transition: background 15s ease-in-out;
     background-color: orchid;
 }
 
@@ -19,7 +19,7 @@ body:hover {
     text-align: center;
     width: 90%;
     margin: 100px auto 0;
-    background-image: url('https://imgur.com/cjQuqx4.jpg') ;
+    background-image: url('https://imgur.com/cjQuqx4.jpg');
 }
 
 
@@ -52,12 +52,12 @@ a {
     text-transform: uppercase;
     color: yellow;
     margin-top: -95px;
-    transition: all 3s ease-out;
+    transition: all 3s ease-in-out;
     font-weight: bolder;
 }
 
 .clipName:hover {
-    transition: all 3s ease-out;
+    transition: all 3s ease-in-out;
     transform: translate(50px, 0);
     color: #fff;
 }
@@ -155,23 +155,24 @@ a {
 }
 
 .priblizi {
-    transition: transform 5s;
-    transition-delay: 1s;
+    transition: transform 5s ease-in-out;
+    /*transition-delay: 1s;*/
 }
 
 .zarotiraj {
-    transition: transform 5s;
+    transition: transform 5s ease-out;
     /*transition-delay: 1s;*/
 }
 
 .priblizi:hover {
-    transition: transform 5s;
+    transition: transform 5s ease-in-out;
     transform: scale(3,3);
 }
 
 .zarotiraj:hover {
-    transition: transform 4s;
-    transform: rotate(740deg)
+    transition: transform 4s ease-out;
+    transform: rotate(1000deg);
+
 }
 
 
