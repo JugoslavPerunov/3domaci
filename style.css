@@ -83,7 +83,7 @@ a {
     opacity: 0.8;
 }
 
-.cursive, .dno {
+.cursive, .dno, .forma {
     font-family: 'Cedarville Cursive', cursive;
 }
 
@@ -180,10 +180,27 @@ a {
 }
 
 .zarotiraj:hover {
-    transition: transform 4s ease-out;
+    transition: transform 3s ease-out;
     transform: rotate(1000deg);
 
 }
+
+/*forma*/
+.forma {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.stampanTekst {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.dno, button.dno  {
+    display: inline;
+}
+
+
+
 
 
 
