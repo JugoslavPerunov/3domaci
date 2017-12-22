@@ -2,6 +2,8 @@
 * {
     text-align: center;
 }
+
+}
 body {
     background-color: aqua;
     color: #000;
@@ -54,6 +56,7 @@ header {
 
 a {
     text-decoration-line: none;
+    text-decoration-color: #fff;
 }
 
 .clipName {
@@ -165,7 +168,7 @@ a {
 }
 
 .priblizi {
-    transition: transform 5s ease-in-out;
+    transition: transform 4s ease-in-out;
     /*transition-delay: 1s;*/
 }
 
@@ -175,12 +178,12 @@ a {
 }
 
 .priblizi:hover {
-    transition: transform 5s ease-in-out;
+    transition: transform 4s ease-in-out;
     transform: scale(3,3);
 }
 
 .zarotiraj:hover {
-    transition: transform 3s ease-out;
+    transition: transform 4s ease-out;
     transform: rotate(1000deg);
 
 }
@@ -195,13 +198,32 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-p.dno, button.dno  {
-    display: inline;
+.razlogDrugo {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
 }
 
+/*KRAJ*/
+.konac {
+    font-family: 'Cedarville Cursive', cursive;
+    margin-top: 20%;
+}
+/*.kraj {
+    font-family: 'Cedarville Cursive', cursive;
+}*/
 
+.konacUnderline {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
 
-
+/*BUTTON*/
+button {
+    font-family: 'Cedarville Cursive', cursive;
+    color: purple;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
 
 
 
