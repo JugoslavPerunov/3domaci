@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Per aspera ad astra</title>
     <meta chart="UTF-8">
     <link rel="stylesheet" href="./style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
 </head>
+
 <body>
-        <div class="forma">
+    <div class="forma">
         <form action="#">
-                <fieldset>
-                  <legend>Najosnovnije</legend>
-                  <label for="ime">ime:</label><input type="text" id="ime" value="Mickey/Minnie" name="ime" placeholder="ukucati svoje ime" required>*<br>
-                  <label for="prezime">prezime:</label><input type="text" id="prezime" name="prezime" value="Mouse" placeholder="ukucati prezime" required>*<br>
-                  <span>pol:</span>
-                  <label for="pol">ženskić</label><input type="radio" name="pol">
-                  <label for="pol">muškić</label><input type="radio" name="pol">
-                  <label for="pol">treće</label><input type="radio" name="pol">
-                </fieldset><br>
-                <fieldset>
-                    <legend>Kontakt</legend>
-                    <label for="adresa">adresa:</label><input type="text" id="adresa" name="adresa" placeholder="Vedra nebesa b.b."><br>
-                    <label for="mob">broj mob. telefona:</label><input type="tel" id="mob" ime="mob" placeholder="+381 60 1234567" maxlength="17" required>*<br>
-                    <label for="mail">email adresa:</label> <input type="email" id="mail" name="mail" placeholder="pera.detlic@kgb.com" required>*<br>
-                </fieldset><br>
-                <fieldset>
-                  <legend>Razlog kontaktiranja</legend>
-                  <label for="razlog1">volem d'učim</label><input type="checkbox" name="razlog1" id="razlog1"><br>
-                  <label for="razlog2">volem das' družim</label><input type="checkbox" name="razlog2" id="razlog2"><br>
-                  <label for="razlog3">oću da prokljuvim <span class="stampanTekst">GIT</span>ovanje</label><input type="checkbox" name="razlog3" id="razlog3"><br>
-                  <label for="razlog4">da saznam više o <span class="stampanTekst">Učenje&Druženje Unlimited</span></label><input type="checkbox" name="razlog4" id="razlog4"><br>
-                  <label for="razlog5">tedoh da znam više o masoneriji</label><input type="checkbox" name="razlog5" id="razlog5" checked><br>
-                  <label for="razlog6">dosadno mi u životu</label><input type="checkbox" name="razlog6" id="razlog6"><br>
-                  <label for="razlog*">sve navedeno</label><input type="checkbox" name="razlog*" id="razlog*"><br>
-                  <label for="drugo" class="razlogDrugo">drugo</label><br><textarea placeholder="(mas)oni su među nama..." name="drugo" id="drugo" cols="30" rows="3" maxlength="80"></textarea>
-                </fieldset><br>
-                <button type="submit">to je to</button>
-                <button type="reset">aj' jovo nanovo</button><br><br>
-                <a href="./page2.html">dalje>>></a><br>
-                <a href="./index.html">početna strana</a><br><br>
-                </form>
-            </div>
+            <fieldset>
+                <legend>Najosnovnije</legend>
+                <label for="ime">ime:</label>
+                <input type="text" id="ime" value="Mickey/Minnie" name="ime" placeholder="ukucati svoje ime"
+                    required>*
+                <br>
+                <label for="prezime">prezime:</label>
+                <input type="text" id="prezime" name="prezime" value="Mouse" placeholder="ukucati prezime"
+                    required>*
+                <br>
+                <span>pol:</span>
+                <label for="pol">ženskić</label>
+                <input type="radio" name="pol">
+                <label for="pol">muškić</label>
+                <input type="radio" name="pol">
+                <label for="pol">treće</label>
+                <input type="radio" name="pol">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Kontakt</legend>
+                <label for="adresa">adresa:</label>
+                <input type="text" id="adresa" name="adresa" placeholder="Vedra nebesa b.b.">
+                <br>
+                <label for="mob">broj mob. telefona:</label>
+                <input type="tel" id="mob" ime="mob" placeholder="+381 60 1234567" maxlength="17"
+                    required>*
+                <br>
+                <label for="mail">email adresa:</label>
+                <input type="email" id="mail" name="mail" placeholder="pera.detlic@kgb.com" required>*
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Razlog kontaktiranja</legend>
+                <label for="razlog1">volem d'učim</label>
+                <input type="checkbox" name="razlog1" id="razlog1">
+                <br>
+                <label for="razlog2">volem das' družim</label>
+                <input type="checkbox" name="razlog2" id="razlog2">
+                <br>
+                <label for="razlog3">oću da prokljuvim
+                    <span class="stampanTekst">GIT</span>ovanje</label>
+                <input type="checkbox" name="razlog3" id="razlog3">
+                <br>
+                <label for="razlog4">da saznam više o
+                    <span class="stampanTekst">Učenje&Druženje Unlimited</span>
+                </label>
+                <input type="checkbox" name="razlog4" id="razlog4">
+                <br>
+                <label for="razlog5">tedoh da znam više o masoneriji</label>
+                <input type="checkbox" name="razlog5" id="razlog5" checked>
+                <br>
+                <label for="razlog6">dosadno mi u životu</label>
+                <input type="checkbox" name="razlog6" id="razlog6">
+                <br>
+                <label for="razlog*">sve navedeno</label>
+                <input type="checkbox" name="razlog*" id="razlog*">
+                <br>
+                <label for="drugo" class="razlogDrugo">drugo</label>
+                <br>
+                <textarea placeholder="(mas)oni su među nama..." name="drugo" id="drugo" cols="30" rows="3" maxlength="80"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">to je to</button>
+            <button type="reset">aj' jovo nanovo</button>
+            <br>
+            <br>
+            <a href="./page2.html">dalje>>></a>
+            <br>
+            <a href="./index.html">početna strana</a>
+            <br>
+            <br>
+        </form>
+    </div>
 </body>
+
 </html>
