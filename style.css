@@ -3,7 +3,6 @@
     text-align: center;
 }
 
-
 body {
     background-color: aqua;
     color: #000;
@@ -183,7 +182,7 @@ a {
 
 .zarotiraj:hover {
     transition: transform 4s ease-out;
-    transform: rotate(1000deg);
+    transform: rotate(1200deg);
 
 }
 
