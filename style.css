@@ -204,7 +204,7 @@ a {
 /*KRAJ*/
 .konac {
     font-family: 'Cedarville Cursive', cursive;
-    margin-top: 20%;
+    /*margin-top: 5%; ukidam zbog dodatog cveta*/
 }
 /*.kraj {
     font-family: 'Cedarville Cursive', cursive;
@@ -213,6 +213,16 @@ a {
 .konacUnderline {
     text-decoration-line: underline;
     text-decoration-style: wavy;
+}
+
+.cvetak {
+    transition: transform 3s ease-in-out;
+}
+
+.cvetak:hover {
+    transition: transform 3s ease-in-out;
+    transform: translateY(-50px);
+    
 }
 
 /*BUTTON*/
