@@ -204,7 +204,7 @@ a {
 /*KRAJ*/
 .konac {
     font-family: 'Cedarville Cursive', cursive;
-    /*margin-top: 5%; ukidam zbog dodatog cveta*/
+    /*margin-top: 5%; */
 }
 /*.kraj {
     font-family: 'Cedarville Cursive', cursive;
@@ -216,14 +216,19 @@ a {
 }
 
 .cvetak {
+    position: relative;
+    float: left;
     transition: transform 3s ease-in-out;
 }
 
 .cvetak:hover {
     transition: transform 3s ease-in-out;
-    transform: translateY(-50px);
-    
+    transform: translateY(-30%) translateX(57%);
 }
+
+/* proba .cvetak:hover:hover {
+    transform: rotateX(90deg);
+}*/
 
 /*BUTTON*/
 button {
