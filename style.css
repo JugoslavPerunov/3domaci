@@ -35,7 +35,7 @@ body:hover {
 
 
 .videoClip {
-    display: block;
+    /*display: block;*/
     position: relative;
     margin: 100px auto;
     /*transition: transform 2s;*/
@@ -238,5 +238,39 @@ button {
     font-size: 1.5em;
 }
 
+/* @media */
+@media (max-width: 890px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+  
+@media (max-width: 745px) and (min-width: 675px)  {
+  .ucenje, .druzenje {
+      display: none;
+}
+
+@media (max-width: 612px) {
+  .ucenje, .druzenje {
+      display: none;
+  }
+}
+ 
+@media (max-width: 654px) {
+    iframe {
+        width: 300px;
+    }
+
+    .wrapper {
+        background-image: none;
+    }
+}
+
+@media (max-width: 365px) {
+  iframe {
+    width: 50%;
+    height: 50%
+  }
+}
 
 
