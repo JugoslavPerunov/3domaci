@@ -238,6 +238,7 @@ button {
     font-size: 1.5em;
 }
 
+
 /* @media */
 @media (max-width: 890px) {
     .flex {
@@ -245,9 +246,9 @@ button {
     }
 }
   
-@media (max-width: 745px) and (min-width: 675px)  {
+@media (max-width: 746px) /*and (min-width: 675px) */ {
   .ucenje, .druzenje {
-      display: none;
+      position: static;
 }
 
 @media (max-width: 612px) {
@@ -269,8 +270,13 @@ button {
 @media (max-width: 365px) {
   iframe {
     width: 50%;
-    height: 50%
+    height: 50%;
   }
+
+  .velikoIdebelo {
+      font-size-adjust: inherit;
+      font-weight: inherit;
+  }
+
 }
-
-
+}
