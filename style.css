@@ -230,6 +230,21 @@ a {
     transform: rotateX(90deg);
 }*/
 
+@media (max-width: 900px) {
+    .cvetak {
+        width: 150px;
+        height: 120px;
+        position: static;
+        float: none;
+    }
+
+    .cvetak:hover {
+        transition: transform 5s ease-in-out;
+        transform: rotate(3600deg);
+    }
+}
+
+
 /*BUTTON*/
 button {
     font-family: 'Cedarville Cursive', cursive;
@@ -252,8 +267,18 @@ button {
 }
 
 @media (max-width: 612px) {
-  .ucenje, .druzenje {
+  /*.ucenje, .druzenje {
       display: none;
+  }*/
+
+  .zarotiraj {
+      width: 100px;
+      height: 100px;
+  }
+
+  .priblizi {
+      width: 100px;
+      height: 160px;
   }
 }
  
@@ -279,7 +304,7 @@ button {
   }
 
 }
-}
+
 
 /*all seeing eye, fixed position*/
 
@@ -295,3 +320,4 @@ button {
         height: 50px;
     }
 }
+
