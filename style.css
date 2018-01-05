@@ -280,3 +280,18 @@ button {
 
 }
 }
+
+/*all seeing eye, fixed position*/
+
+.imgFixed {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+
+@media (max-width: 540px) {
+    .imgFixed {
+        width: 50px;
+        height: 50px;
+    }
+}
