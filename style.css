@@ -10,7 +10,7 @@ body {
 }
  
 body:hover {
-    transition: background 15s ease-in-out;
+    transition-duration: 15s;
     background-color: orchid;
 }
 
@@ -22,7 +22,7 @@ body:hover {
 }
 
 .dobrodosli:hover {
-    transition: transform 4s ease-in-out;
+    transition-duration: 3s;
     transform: rotateZ(360deg);
 }
 
@@ -42,7 +42,6 @@ body:hover {
 }
 
 /*.videoClip:hover {
-    transition: transform 2s;
     transform: rotateX(360deg);
 }*/
 
@@ -68,7 +67,7 @@ a {
 }
 
 .clipName:hover {
-    transition: all 3s ease-in-out;
+    /*NE TREBA trnsition-property ovde, može transition-duration, ako hoćeš da se vraća u prvobitno stanje brže-kraće...transition: all 3s ease-in-out;*/
     transform: translate(50px, 0);
     color: #fff;
 }
@@ -79,7 +78,7 @@ a {
 }
 
 .marginaVic:hover {
-    transition: all 4s;
+    transition-duration: 4s;
     transform: scale(2,2);
     opacity: 0.8;
 }
@@ -176,14 +175,13 @@ a {
 }
 
 .priblizi:hover {
-    transition: transform 4s ease-in-out;
+    /*ne treba - redundantno!: transition: transform 4s ease-in-out;*/
     transform: scale(3,3);
 }
 
 .zarotiraj:hover {
-    transition: transform 4s ease-out;
+    transition-duration: 4s; 
     transform: rotate(1200deg);
-
 }
 
 /*forma*/
@@ -222,7 +220,7 @@ a {
 }
 
 .cvetak:hover {
-    transition: transform 3s ease-in-out;
+    /*redundantno - ne treba: transition: transform 3s ease-in-out;*/
     transform: translateY(-30%) translateX(57%);
 }
 
@@ -236,10 +234,11 @@ a {
         height: 120px;
         position: static;
         float: none;
+        transition: transform 5s ease-in-out;
     }
 
     .cvetak:hover {
-        transition: transform 5s ease-in-out;
+        
         transform: rotate(3600deg);
     }
 }
