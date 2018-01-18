@@ -1,6 +1,7 @@
 
 * {
     text-align: center;
+    /*box-sizing: content-box;*/
 }
 
 body {
@@ -96,31 +97,56 @@ a {
 
 .flex {
     display: flex;
-    
 }
 
 .video, .vic, .kontakt, .sponzor {
     font-size: 2em;
-    color: DarkRed;
     font-weight: bolder;
     flex-grow: 1;
     border: 2px solid white;
+    border-radius: 5%;
+    text-decoration-color: none;
 }
 
 .video {
-    background-color: red;
+    background-color: chocolate;
+    color: khaki;
+}
+
+.video:hover {
+    background-color: khaki;
+    color: chocolate;
 }
 
 .vic {
     background-color: green;
+    color: violet;
+}
+
+.vic:hover {
+    background-color: violet;
+    color: green;
+    
 }
 
 .kontakt {
-    background-color: blue;
+    background-color: steelblue;
+    color: wheat;
+}
+
+.kontakt:hover {
+    background-color: wheat;
+    color: steelblue;
 }
 
 .sponzor {
-    background-color: #fff;
+    background-color: navy;
+    color: mediumturquoise;
+}
+
+.sponzor:hover {
+    background-color: mediumturquoise;
+    color: navy;
 }
 
 
@@ -153,10 +179,14 @@ a {
 }
 
 .velikoIdebelo {
-    font-family: Arial, Helvetica, sans-serif;
+/*INHERITED from .ucenjIdruzenje >> font-family: Arial, Helvetica, sans-serif;*/
     font-size: 2em;
     font-weight: 900;
     color: #fff;
+}
+
+.velikoIdebelo:hover {
+    opacity: 0.8;
 }
 
 .ucenjeIdruzenje {
@@ -311,6 +341,11 @@ button {
     position: fixed;
     right: 5px;
     top: 5px;
+    /*transition: opacity 0.1s ease-in-out;*/
+}
+
+.imgFixed:hover {
+    opacity: 0.6;
 }
 
 @media (max-width: 860px) {
@@ -325,3 +360,7 @@ button {
     margin: 5% 0;
 }
 
+/*problemcic sa logom -gde je vrh?*/
+#vrh {
+    padding-bottom: 1%;
+}
