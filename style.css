@@ -362,5 +362,19 @@ button {
 
 /*problemcic sa logom -gde je vrh?*/
 #vrh {
-    padding-bottom: 1%;
+    padding: 1%;
+}
+
+button:active {
+    margin-top: 3px;
+}
+
+.video:active, .vic:active, .kontakt:active, .sponzor:active {
+   visibility: hidden;
+   /*opacity: 0.2;*/
+   /*CUDNO?! PROBAJ: margin-top: 1px;*/
+}
+
+.imgFixed:active {
+    top: 7px;
 }
