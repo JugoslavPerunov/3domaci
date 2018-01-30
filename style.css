@@ -345,7 +345,7 @@ button {
 }
 
 .imgFixed:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @media (max-width: 860px) {
@@ -370,8 +370,8 @@ button:active {
 }
 
 .video:active, .vic:active, .kontakt:active, .sponzor:active {
-   visibility: hidden;
-   /*opacity: 0.2;*/
+   /*visibility: hidden;*/
+    opacity: 0.7;
    /*CUDNO?! PROBAJ: margin-top: 1px;*/
 }
 
